@@ -17,12 +17,9 @@
     height: 100%;
 }
 
-
 .content {
     padding-top: 120px; /* Adds space to avoid overlap with nav */
 }
-
-
 
 ol li {
     margin: 10px 0; /* Adds space between the list items */

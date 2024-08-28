@@ -13,8 +13,13 @@
 
 
 ol {
-    list-style-type: none; /* Removes the default list bullets */
+    list-style: none; /* Remove bullet points */
     padding: 0;
+    margin: 0;
+    display: flex; /* Display items in a row */
+    justify-content: space-around; /* Evenly space items */
+    align-items: center; /* Align items vertically in the center */
+    height: 100%;
 }
 
 ol li {

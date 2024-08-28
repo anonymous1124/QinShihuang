@@ -1,28 +1,31 @@
- <style type="text/css">
-    *{margin: 0;padding: 0;}
-     .nav{
-        height: 100px;
-         width: 100%;
-         background: black;
-         position: fixed;
-         top: 0;
-     }
-     .content{
-         height: 1400px;
-         background: orange;
-         margin-top: 100px; 
-     }
-</style>
+.nav {
+    height: 100px;
+    width: 100%;
+    background: black;
+    position: fixed;
+    top: 0;
+}
 
-<body>
-    <div class="nav"></div>
-    <div class="content">
-        <ol>
-<li><a href="背景.html">背景</a></li>
-<li><a href="秦王即位.html">秦王即位</a></li>
-<li><a href="歼灭六国.html">歼灭六国</a></li>
-<li><a href="成就.html">成就</a></li>
-<li><a href="轶事.html">轶事</a></li>
-</ol>
-    </div>
-</body>
+.content {
+    padding-top: 100px; /* Changed margin-top to padding-top for better spacing */
+    background: orange;
+    min-height: 1400px; /* Ensures content has at least a certain height */
+}
+
+ol {
+    list-style-type: none; /* Removes the default list bullets */
+    padding: 0;
+}
+
+ol li {
+    margin: 10px 0; /* Adds space between the list items */
+}
+
+ol li a {
+    color: white; /* Changes link color to white */
+    text-decoration: none; /* Removes underline from links */
+}
+
+ol li a:hover {
+    text-decoration: underline; /* Adds underline on hover for links */
+}

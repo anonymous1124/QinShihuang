@@ -4,13 +4,14 @@
     background: black;
     position: fixed;
     top: 0;
+    z-index: 1; /* Keep the nav bar on top */
 }
 
 .content {
-    padding-top: 100px; /* Changed margin-top to padding-top for better spacing */
+    padding-top: 120px; /* Adds space to avoid overlap with nav */
     background: orange;
-    min-height: 1400px; /* Ensures content has at least a certain height */
 }
+
 
 ol {
     list-style-type: none; /* Removes the default list bullets */

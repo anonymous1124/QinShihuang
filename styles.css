@@ -7,12 +7,7 @@
     z-index: 1; /* Keep the nav bar on top */
 }
 
-.content {
-    padding-top: 120px; /* Adds space to avoid overlap with nav */
-}
-
-
-ol {
+.nav ol {
     list-style: none; /* Remove bullet points */
     padding: 0;
     margin: 0;
@@ -21,6 +16,13 @@ ol {
     align-items: center; /* Align items vertically in the center */
     height: 100%;
 }
+
+
+.content {
+    padding-top: 120px; /* Adds space to avoid overlap with nav */
+}
+
+
 
 ol li {
     margin: 10px 0; /* Adds space between the list items */

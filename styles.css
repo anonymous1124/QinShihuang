@@ -1,14 +1,15 @@
-
 body {
 margin: 0;
 padding: 0;
 height: 100%;
-background-image: url("images/zhuye.jpg");
+background-image: url("images/moshui.jpg");
 background-size: cover;
 background-position: center;
 background-repeat: no-repeat;
 background-attachment: fixed;
+
 }
+
 
 
 .topnav {
@@ -67,15 +68,20 @@ font-size:40px;
 font-size:20px;
 }
 
+.table-text {
+font-size: 18px;
+padding: 20px; 
+}
+
 .content h4 a{
 color:gold
 }
 .style1 a {
-    color: gold; /* Default link color */
-    text-decoration: none; /* Removes underline from links */
+    color: gold; 
+    text-decoration: none; 
 }
 
-/* Visited link styling */
+
 .style1 a:visited {
     color: gold; }
 
@@ -86,17 +92,44 @@ color:gold
 
 
 .style1 a:active {
-    color: yellow; 
+    color:yellow; 
 }
 
 
-p {
-  background-colour: url("white");
+.style2 a {
+    color:black ;
+    text-decoration: underline; 
 }
 
-p.inset {border-style: inset;
-         background-color: white;
+
+.style2 a:visited {
+    color:black; }
+
+
+.style2 a:hover {
+    color: grey; 
 }
+
+
+.style2 a:active {
+    color: grey; 
+}
+ul.inset {
+border-style: inset;
+background-color: white;
+padding:40px;
+font-size:18px;
+font-weight: normal;
+}
+
+p.inset {
+border-style: inset;
+background-color: white;
+padding:15px;
+font-size:18px;
+font-weight: normal;
+}
+
 
 h3.inset {
 border-style: inset;
@@ -120,7 +153,7 @@ text-align: center;}
  display: inline-block;
   border: 1px solid #ddd;
   border-radius: 4px;
-  padding: 5px;
+  padding: 10px;
   width: 350px;
   height:250px;
 transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -131,14 +164,36 @@ transition: transform 0.3s ease, box-shadow 0.3s ease;
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
 }
 
+.p1 p{
+text-align:center;}
 
-td {
+s
+.border1 td {
 border: 1px solid black;
 padding:20px;	
 }
 
+.border2 td {
+padding:20px;
+	
+}
+
+.shm img{
+border-radius:100%;
+}
+
+.hover-effect {
+text-align：center;
+font-size:18px;
+padding:10px;
+    transition: transform 0.3s ease;
+}
 
 
+
+.hover-effect:hover {
+    transform: scale(1.1); 
+}
 
 footer {
     background-color: #333;
@@ -148,7 +203,8 @@ footer {
     margin-top: 15px;
 }
 
+
 footer p {
     margin: 0;
-    font-size: 12px;
+    font-size: 15px;
 }

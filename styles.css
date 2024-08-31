@@ -168,11 +168,16 @@ text-align: center;
     padding: 5px; 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); }
 
-.image{
-text-align: center;}
+.image {
+    display: flex; 
+    justify-content: center; 
+    gap: 10px; 
+}
+
 
 .image img {
  display: inline-block;
+margin: 0;
   border: 1px solid #ddd;
   border-radius: 4px;
   padding: 10px;
@@ -216,6 +221,15 @@ padding:10px;
 .hover-effect:hover {
     transform: scale(1.1); 
 }
+
+table {
+        border-spacing: 0 10px; /* Adds spacing between rows */
+        width: 100%;
+    }
+    td, th {
+        padding: 10px; /* Adds padding inside cells */
+        vertical-align: top; /* Aligns text to the top */
+    }
 
 footer {
     background-color: #333;
